@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>葡萄藤PPT</title>
+
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/css/reveal/reveal.css">
+
+    <!-- PPT主题，可以在/css/reveal/theme/中选择其他主题，目前暂时只能使用该模板 -->
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/css/reveal/theme/ptt.css">
+
+    <!-- syntax highlighting 代码高亮主题 -->
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/lib/reveal/css/zenburn.css">
+
+    <!-- 打印和PDF输出样式 -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'https://ptteng.github.io/PPT/css/reveal/print/pdf.css' : '../css/reveal/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+</head>
+<body>
+<img src="https://ptteng.github.io/PPT/img/demo/logo.png" alt="" usemap="#pttmap" class="base-logo">
+<map name="pttmap">
+    <area shape="rect" coords="0,0,276,58" href="http://www.jnshu.com" alt="" target="_blank"/>
+</map>
+<div class="reveal">
+    <div class="slides">
+        <section>
+            <h2>【PM-TASK6】为什么要设立角色，账户是否可以允许有多个角色？权限为什么不直接分配给账户？</h2>
+            <p></p>
+           
+            <p>成都分院:蔡瑞丰</p>
+        </section>
+        <section>
+            <p>1.背景介绍</p>
+            <p>2.知识剖析</p>
+            <p>3.常见问题</p>
+            <p>4.解决方案</p>
+            <p>5.编码实战</p>
+            <p>6.扩展思考</p>
+            <p>7.参考文献</p>
+            <p>8.更多讨论</p>
+        </section>
+        <section>
+            <h3>1.背景介绍</h3>
+        </section>
+ 
+        <section>
+         <p>后台权限系统</p>
+         <p>权限系统就是：明确操作人员可在平台内能做什么。即什么样的人，可以做什么样的事，。</p>
+            <p>我们的用户是所有可以登录该平台的人员。</p>
+			
+        </section>
+       
+           
+           
+		<section>
+            <h3>2.知识剖析</h3>
+        </section>
+
+        <section>
+            <p>“RBAC”结构 </p>
+
+            <p>权限与角色相关联，用户通过成为适当角色的成员而得到这些角色的权限。 </p>
+
+            <p> 通俗来说传统的rbac模型就是创建角色，将权限赋予角色，把角色赋予用户。</p>
+			</section>
+
+        <section>
+       
+        <p>什么是角色？</p>
+            <p>角色是页面操作权限的集合，是一个权限集。通过对角色权限的修改，可以实现对用户权限的批量修改。
+            </p>
+           <p>
+				权限说明
+		   </p>
+		   <p>
+				页面权限、操作权限和数据权限。
+		   </p>
+		   </section>
+		   <section>
+		   <p>
+		   页面权限：用户可以看到那些页面；
+		   </p>
+		   <p>
+		   操作权限：用户可以在页面内进行那些操作，增删改查等；
+		   </P>
+		   <p>
+		   数据权限：用户可以页面内看到那些数据或内容，以教培ERP系统学员管理模块为例，学员1为A校区学员，学员2为B学员，A校区相关工作人员登录系统查看学员信息，仅可查看到学员1。
+		   </p>
+        </section>
+		
+       <section>
+            <h3>3.常见问题</h3>
+       </section>
+				
+		<section>
+            <p>为什么要设立角色？权限为什么不直接分配给账户？</p>
+			</section>
+			<section>
+			<p>
+		 1.若不同用户拥有相同权限，那么后台操作人员将重复配置多次。</p>
+		 <p>
+			2.若用户身份变更，需重新梳理权限。</p>
+			<p>
+		3.设置权限的人需要对业务有深入的了解，出现误操作时影响较大
+		   </p>
+		   <p>
+		   4.每次新功能上线都需要将新增的功能与操作分配给对应的角色，一旦遗忘也会产生影响。
+		   </p>
+</section>
+<section>
+            <p>4.账户是否可以允许有多个角色？</p>
+       </section>
+       
+		 <section>
+            <h3>4.解决方案</h3>
+       </section>
+	   <section>
+            <
+        </section>
+        <section>
+            <h3>5.实例</h3>
+        </section>
+		
+        <section>
+        <p>
+        	<h3>6.扩展思考</h3>
+            <p></p>
+            <p>
+
+            </p>
+        </section>
+
+
+
+        <section>
+            <h3>7.参考文献</h3>
+            <p>http://www.woshipm.com/pd/2259146.html</p>
+
+        </section>
+        <section>
+            <h3>8.更多讨论</h3>
+        </section>
+		
+		<section>
+         <p></p>
+		</section>
+
+        <section>
+            <h3>9.鸣谢</h3>
+        </section>
+
+
+        <section>
+            <h4>谢谢观看</h4>
+            <p></p>
+            <p><small>By:张麟</small></p>
+        </section>
+
+    </div>
+</div>
+
+<script src="https://ptteng.github.io/PPT/lib/reveal/js/head.min.js"></script>
+<script src="https://ptteng.github.io/PPT/lib/reveal/reveal.js"></script>
+
+<script>
+    // 以下为常见配置属性的默认值
+    // {
+    //  controls: true, // 是否在右下角展示控制条
+    //  progress: true, // 是否显示演示的进度条
+    //  slideNumber: false, // 是否显示当前幻灯片的页数编号，也可以使用代码slideNumber: 'c / t' ，表示当前页/总页数。
+    //  history: false, // 是否将每个幻灯片改变加入到浏览器的历史记录中去
+    //  keyboard: true, // 是否启用键盘快捷键来导航
+    //  overview: true, // 是否启用幻灯片的概览模式，可使用"Esc"或"o"键来切换概览模式
+    //  center: true, // 是否将幻灯片垂直居中
+    //  touch: true, // 是否在触屏设备上启用触摸滑动切换
+    //  loop: false, // 是否循环演示
+    //  rtl: false, // 是否将演示的方向变成RTL，即从右往左
+    //  fragments: true, // 全局开启和关闭碎片。
+    //  autoSlide: 0, // 两个幻灯片之间自动切换的时间间隔（毫秒），当设置成 0 的时候则禁止自动切换，该值可以被幻灯片上的 ` data-autoslide` 属性覆盖
+    //  transition: 'default', // 切换过渡效果，有none/fade/slide/convex/concave/zoom
+    //  transitionSpeed: 'default', // 过渡速度，default/fast/slow
+    //  mouseWheel: true, //是否启用通过鼠标滚轮来切换幻灯片
+    // }
+    // 初始化幻灯片
+    Reveal.initialize({
+        history: true,
+        dependencies: [
+            { src: 'https://ptteng.github.io/PPT/plugin/markdown/marked.js' },
+            { src: 'https://ptteng.github.io/PPT/plugin/markdown/markdown.js' },
+            { src: 'https://ptteng.github.io/PPT/plugin/notes/notes.js', async: true },
+            { src: 'https://ptteng.github.io/PPT/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+    });
+</script>
+</body>
+</html>
